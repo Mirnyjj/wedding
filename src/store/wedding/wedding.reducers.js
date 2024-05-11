@@ -36,6 +36,12 @@ const initialState = {
       appeal: "Дорогие",
       x: 4
     },
+    {
+      name: "Игорь и Аня",
+      url: "igor-any",
+      appeal: "Дорогие",
+      x: 4
+    },
     { name: "Луиза и Сергей", url: "luiza-sergey", appeal: "Дорогие", x: 2 },
     { name: "дядя Сергей, тетя Лена, Максим, Саша и Ирина", url: "zhelniny", appeal: "Дорогие", x: 2 },
     { name: "дядя Витя и Стас", url: "tihanovy", appeal: "Дорогие", x: 1 },
@@ -83,7 +89,7 @@ const initialState = {
       x: 3
     },
     { name: "Александр", url: "aleksandr", appeal: "Дорогой", x: 1 },
-    { name: "Артем", url: "Артем", appeal: "Дорогой", x: 3 },
+    { name: "Артем", url: "artem", appeal: "Дорогой", x: 3 },
   ],
   dressCode: {
     title: "Цветовая гамма",
