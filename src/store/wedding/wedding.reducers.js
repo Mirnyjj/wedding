@@ -23,34 +23,34 @@ const initialState = {
       appeal: "Дорогие",
       x: 4
     },
-    { name: "Сергей и Аня", url: "sergey-anna", appeal: "Дорогие", x: 1 },
+    { name: "Сергей и Анна", url: "sergey-anna", appeal: "Дорогие", x: 1 },
     {
-      name: "крестная дядя Андрей и Арина",
+      name: "крестная, дядя Андрей и Арина",
       url: "krestnaya",
       appeal: "Дорогие",
       x: 4
     },
     {
-      name: "Денис и Настя",
+      name: "Денис и Анастасия",
       url: "denis-nastya",
       appeal: "Дорогие",
       x: 4
     },
     {
-      name: "Игорь и Аня",
+      name: "Игорь и Анна",
       url: "igor-any",
       appeal: "Дорогие",
       x: 4
     },
     { name: "Луиза и Сергей", url: "luiza-sergey", appeal: "Дорогие", x: 2 },
-    { name: "дядя Сергей, тетя Лена, Максим, Саша и Ирина", url: "zhelniny", appeal: "Дорогие", x: 2 },
+    { name: "дядя Сергей, тетя Лена, Максим, Александр и Ирина", url: "zhelniny", appeal: "Дорогие", x: 2 },
     { name: "дядя Витя и Стас", url: "tihanovy", appeal: "Дорогие", x: 1 },
     { name: "Василий и Екатерина", url: "vasy-katy", appeal: "Дорогие", x: 1 },
     { name: "Эдуард и Индира", url: "edyard-indira", appeal: "Дорогие", x: 1 },
     { name: "Ангелина", url: "angelina", appeal: "Дорогая", x: 1 },
-    { name: "Дима и Оксана", url: "dima-oksana", appeal: "Дорогие", x: 4 },
-    { name: "Саша и Настя", url: "sasha-nastya", appeal: "Дорогие", x: 3 },
-    { name: "Саша и Аня", url: "sasha-any", appeal: "Дорогие", x: 4 },
+    { name: "Дмитрий и Оксана", url: "dima-oksana", appeal: "Дорогие", x: 4 },
+    { name: "Александр и Анастасия", url: "sasha-nastya", appeal: "Дорогие", x: 3 },
+    { name: "Александр и Анна", url: "sasha-any", appeal: "Дорогие", x: 4 },
     { name: "Никита", url: "nikita", appeal: "Дорогой", x: 4 },
     {
       name: "дядя Андрей",
@@ -58,32 +58,32 @@ const initialState = {
       appeal: "Дорогой",
       x: 4
     },
-    { name: "Катя и Лера", url: "katy-lera", appeal: "Дорогие", x: 4 },
-    { name: "Лена, Витя, Егор, Маша и Ваня", url: "lena-vitya", appeal: "Дорогие", x: 4 },
+    { name: "Екатерина и Валерия", url: "katy-lera", appeal: "Дорогие", x: 4 },
+    { name: "Елена, Виктор, Егор, Мария и Иван", url: "lena-vitya", appeal: "Дорогие", x: 4 },
     {
-      name: "Настя и Денис",
+      name: "Анастасия и Денис",
       url: "nastya-i-denis",
       appeal: "Дорогие",
       x: 4
     },
     { name: "Андрей и Марина", url: "andrey-marina", appeal: "Дорогие", x: 1 },
-    { name: "Ксюша", url: "ksysha", appeal: "Дорогая", x: 4 },
+    { name: "Ксения", url: "ksysha", appeal: "Дорогая", x: 4 },
     { name: "Наргиз", url: "nargis", appeal: "Дорогая", x: 4 },
-    { name: "Настя", url: "nastya", appeal: "Дорогая", x: 4 },
+    { name: "Анастасия", url: "nastya", appeal: "Дорогая", x: 4 },
     {
-      name: "Таня",
+      name: "Татьяна",
       url: "tanya",
       appeal: "Дорогая",
       x: 4
     },
     {
-      name: "Маша",
+      name: "Мария",
       url: "masha",
       appeal: "Дорогая",
       x: 4
     },
     {
-      name: "Юля",
+      name: "Юлия",
       url: "yla",
       appeal: "Дорогая",
       x: 3
