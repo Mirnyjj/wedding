@@ -30,6 +30,7 @@ export const FeedbackFull = () => {
     beer: "Красное вино",
     secondDay: "Да",
     transfer: "Нет",
+    otherBeer: "",
     // otherChildren: "",
     // apartment: Enums.YES,
     // children: Enums.YES,
@@ -57,6 +58,7 @@ export const FeedbackFull = () => {
     `Присутствие на свадьбе: ${formData.consent}. /` +
     `Предпочтение в мясных блюдах: ${formData.eat}. /` +
     `Предпочтение в напитках: ${formData.beer}. /` +
+    `Комментарий по напиткам: ${formData.otherBeer}. /` +
     `Присутствие на втором дне в городе Инза: ${formData.secondDay} /`
     setTimeout(() => {
       sendMessage(message)

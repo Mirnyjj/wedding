@@ -114,19 +114,19 @@ export const FieldRadio = ({
           </label>
         </div>
       ))}
-      {/*{other && formData[name] === "Другое" && (*/}
-      {/*  <input*/}
-      {/*    type="text"*/}
-      {/*    value={formData.otherBeer}*/}
-      {/*    placeholder="какие напитки?"*/}
-      {/*    onChange={event =>*/}
-      {/*      updateFormData({*/}
-      {/*        ...formData,*/}
-      {/*        otherBeer: event.currentTarget.value*/}
-      {/*      })*/}
-      {/*    }*/}
-      {/*  />*/}
-      {/*)}*/}
+      {other && formData[name] === "Предпочтения в напитках каждого гостя" && (
+       <input
+         type="text"
+         value={formData.otherBeer}
+         placeholder="Для заполнения, если гостей больше одного"
+         onChange={event =>
+           updateFormData({
+             ...formData,
+             otherBeer: event.currentTarget.value
+           })
+         }
+       />
+      )}
       {/*{other && formData[name] === "Да" && (*/}
       {/*  <input*/}
       {/*    type="text"*/}
