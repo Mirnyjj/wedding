@@ -26,8 +26,8 @@ export const FeedbackFull = () => {
 
   const [formData, updateFormData] = useState({
     consent: Enums.YES,
-    eat: "Мясные",
-    beer: "Красное вино",
+    // eat: "Мясные",
+    // beer: "Красное вино",
     secondDay: "Да",
     transfer: "Нет",
     otherBeer: "",
@@ -54,11 +54,11 @@ export const FeedbackFull = () => {
     event.preventDefault();
 
     setIsloading(true);
+    console.log(formData)
     const message = `Получено новое сообщение от ${formData.guest}. /` +
     `Присутствие на свадьбе: ${formData.consent}. /` +
-    `Предпочтение в мясных блюдах: ${formData.eat}. /` +
-    `Предпочтение в напитках: ${formData.beer}. /` +
-    `Комментарий по напиткам: ${formData.otherBeer}. /` +
+    `Предпочтение в мясных блюдах: ${JSON.stringify(formData.eat)}. /` +
+    `Предпочтение в напитках: ${JSON.stringify(formData.beer)}. /` +
     `Присутствие на втором дне в городе Инза: ${formData.secondDay} /`
     setTimeout(() => {
       sendMessage(message)

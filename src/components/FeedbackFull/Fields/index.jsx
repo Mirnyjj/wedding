@@ -43,7 +43,7 @@ export const FieldCheckBox = ({
       ...formData,
       [name]: ""
     });
-  }, [updateFormData, formData, name]);
+  }, [updateFormData, name]);
 
   return (
     <div className="fieldCheckbox field">

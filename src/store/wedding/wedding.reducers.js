@@ -188,14 +188,14 @@ const initialState = {
       {
         title: "Блюда из какого мяса предпочтительнее для Вас?",
         name: "eat",
-        type: "radio",
+        type: "checkbox",
         necessarily: false,
         answers: ["Свинина", "Птица", "Вегетарианские"]
       },
       {
         title: "Какие напитки Вы предпочитаете?",
         name: "beer",
-        type: "radio",
+        type: "checkbox",
         necessarily: false,
         answers: [
           "Красное вино",
@@ -203,7 +203,7 @@ const initialState = {
           "Водка",
           "Коньяк",
           "Безалкогольные",
-          "Предпочтения в напитках каждого гостя"
+          // "Предпочтения в напитках каждого гостя"
         ],
         other: "Предпочтения в напитках каждого гостя"
       },
