@@ -83,9 +83,9 @@ const initialState = {
       x: 4
     },
     {
-      name: "Юлия",
+      name: "Юлия и Николай",
       url: "yla",
-      appeal: "Дорогая",
+      appeal: "Дорогие",
       x: 3
     },
     { name: "Александр", url: "aleksandr", appeal: "Дорогой", x: 1 },
